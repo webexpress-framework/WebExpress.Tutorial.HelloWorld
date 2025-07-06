@@ -80,7 +80,7 @@ Now you have created a new solution and are ready to proceed with the next steps
   </PropertyGroup>
 
   <ItemGroup>
-      <PackageReference Include="WebExpress.WebCore" Version="0.0.8-alpha">
+      <PackageReference Include="WebExpress.WebCore" Version="0.0.9-alpha">
           <Private>false</Private>
           <ExcludeAssets>runtime</ExcludeAssets>
       </PackageReference>
@@ -89,7 +89,7 @@ Now you have created a new solution and are ready to proceed with the next steps
 - Add the necessary dependencies in the `HelloWorld.App.csproj` project file.
   ```xml
   <ItemGroup>
-      <PackageReference Include="WebExpress.WebCore" Version="0.0.8-alpha" />
+      <PackageReference Include="WebExpress.WebCore" Version="0.0.9-alpha" />
   </ItemGroup>
 
   <ItemGroup>
@@ -104,7 +104,7 @@ Now you have created a new solution and are ready to proceed with the next steps
   <?xml version="1.0" encoding="utf-8"?>
   <package>
       <id>WebExpress.Tutorial.HelloWorld</id>
-      <version>0.0.8-alpha</version>
+      <version>0.0.9-alpha</version>
       <title>HelloWorld</title>
       <authors>rene_schwarzer@hotmail.de</authors>
       <license>MIT</license>
@@ -181,7 +181,7 @@ Now you have created a new solution and are ready to proceed with the next steps
       {
           public void Process(IRenderContext renderContext, VisualTree visualTree)
           {
-              visualTree.Favicons.Add(new Favicon(renderContext?.PageContext?.ApplicationContext?.ContextPath.Concat("/assets/img/favicon.png").ToString()));
+              visualTree.Favicons.Add(new Favicon(renderContext?.PageContext?.ApplicationContext?.Route.Concat("/assets/img/favicon.png").ToString()));
               visualTree.Content = new HtmlText(I18N.Translate("HelloWorld:homepage.text"));
           }
       }

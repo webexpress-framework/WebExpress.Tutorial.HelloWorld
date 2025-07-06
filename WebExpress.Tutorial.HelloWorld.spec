@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>WebExpress.Tutorial.HelloWorld</id>
-  <version>0.0.8-alpha</version>
+  <version>0.0.9-alpha</version>
   <title>HelloWorld</title>
   <authors>rene_schwarzer@hotmail.de</authors>
   <license>MIT</license>

@@ -3,18 +3,18 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net9.0</TargetFramework>
-		<Version>0.0.8.0</Version>
-		<AssemblyVersion>0.0.8.0</AssemblyVersion>
+		<Version>0.0.9.0</Version>
+		<AssemblyVersion>0.0.9.0</AssemblyVersion>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="WebExpress.WebCore" Version="0.0.8-alpha" />
+	  <PackageReference Include="WebExpress.WebCore" Version="0.0.9-alpha" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\HelloWorld\HelloWorld.csproj" />
+		<ProjectReference Include="..\HelloWorld\WebExpress.Tutorial.HelloWorld.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
