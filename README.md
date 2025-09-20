@@ -1,4 +1,4 @@
-![WebExpress](https://raw.githubusercontent.com/ReneSchwarzer/WebExpress/main/assets/banner.png)
+![WebExpress-Framework](https://raw.githubusercontent.com/webexpress-framework/.github/main/docs/assets/img/banner.png)
 
 # WebExpress
 `WebExpress` is a lightweight web server optimized for use in low-performance environments (e.g. Rasperry PI). By providing 
@@ -12,18 +12,18 @@ language (e.g. C#). Some advantages of `WebExpress` are:
 
 The `WebExpress` family includes the following projects:
 
-- [WebExpress](https://github.com/ReneSchwarzer/WebExpress#readme) - The web server for `WebExpress` applications and the documentation.
-- [WebExpress.WebCore](https://github.com/ReneSchwarzer/WebExpress.WebCore#readme) - The core for `WebExpress` applications.
-- [WebExpress.WebUI](https://github.com/ReneSchwarzer/WebExpress.WebUI#readme) - Common templates and controls for `WebExpress` applications.
-- [WebExpress.WebIndex](https://github.com/ReneSchwarzer/WebExpress.WebIndex#readme) - Reverse index for `WebExpress` applications.
-- [WebExpress.WebApp](https://github.com/ReneSchwarzer/WebExpress.WebApp#readme) - Business application template for `WebExpress` applications.
+- [WebExpress](https://github.com/webexpress-framework/WebExpress#readme) - The web server for `WebExpress` applications and the documentation.
+- [WebExpress.WebCore](https://github.com/webexpress-framework/WebExpress.WebCore#readme) - The core for `WebExpress` applications.
+- [WebExpress.WebUI](https://github.com/webexpress-framework/WebExpress.WebUI#readme) - Common templates and controls for `WebExpress` applications.
+- [WebExpress.WebIndex](https://github.com/webexpress-framework/WebExpress.WebIndex#readme) - Reverse index for `WebExpress` applications.
+- [WebExpress.WebApp](https://github.com/webexpress-framework/WebExpress.WebApp#readme) - Business application template for `WebExpress` applications.
 
 `WebExpress` is part of the `WebExpress` family. The project provides a web server for `WebExpress` applications.
 
 To get started with `WebExpress`, use the following links.
 
-- [installation guide](https://github.com/ReneSchwarzer/WebExpress/blob/main/doc/installation_guide.md) 
-- [development guide](https://github.com/ReneSchwarzer/WebExpress/blob/main/doc/development_guide.md)
+- [installation guide](https://github.com/webexpress-framework/WebExpress/blob/main/doc/installation_guide.md) 
+- [development guide](https://github.com/webexpress-framework/WebExpress/blob/main/doc/development_guide.md)
 
 # Tutorial
 Tutorial of a simple Hello World application for WebExpress. Two projects are created for the tutorial. The `HelloWorld` project contains the functionality and all resources to run as a WebExpress application. The project `HelloWorld.App` is a helper project that is needed for debugging, testing and packaging creation.
@@ -221,7 +221,7 @@ Now you have created a new solution and are ready to proceed with the next steps
   app.label=Hello World
   app.description=Tutorial of a simple hello world WebExpress application.
   app.license.label=License MIT 
-  app.license.uri=https://github.com/ReneSchwarzer/WebExpress.Tutorial.HelloWorld/blob/main/LICENSE
+  app.license.uri=https://github.com/webexpress-framework/WebExpress.Tutorial.HelloWorld/blob/main/LICENSE
   app.version.label={0} version {1} created with {2} version {3}.
 
   homepage.label=Home page
@@ -236,7 +236,7 @@ Now you have created a new solution and are ready to proceed with the next steps
   ```
 
 ## Add the Assets
-- Add assets to the `HelloWorld` project. You can get the assets for this tutorial here: https://github.com/ReneSchwarzer/WebExpress.Tutorial.HelloWorld/tree/main/src/HelloWorld/Assets/img
+- Add assets to the `HelloWorld` project. You can get the assets for this tutorial here: https://github.com/webexpress-framework/WebExpress.Tutorial.HelloWorld/tree/main/src/HelloWorld/Assets/img
 - Add the assets in the `HelloWorld.csproj` project file.
   ```xml
   <ItemGroup>

@@ -6,7 +6,7 @@ app.name=HelloWorld
 app.label=Hello Welt
 app.description=Tutorial einer einfachen Hallo Welt WebExpress-Anwendudng.
 app.license.label=Lizenz MIT 
-app.license.uri=https://github.com/ReneSchwarzer/WebExpress.Tutorial.HelloWorld/blob/main/LICENSE
+app.license.uri=https://github.com/webexpress-framework/WebExpress.Tutorial.HelloWorld/blob/main/LICENSE
 app.version.label={0} Version {1} erstellt mit {2} Version {3}.
 
 homepage.label=Startseite
