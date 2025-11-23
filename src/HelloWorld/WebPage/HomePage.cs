@@ -13,7 +13,7 @@ namespace HelloWorld.WebPage
     /// This class is responsible for rendering the home page content.
     /// </remarks>
     [Title("HelloWorld:homepage.label")]
-    [Segment(null, "HelloWorld:homepage.label")]
+    [Segment(null)]
     public sealed class HomePage : IPage<VisualTree>, IScope
     {
         /// <summary>
