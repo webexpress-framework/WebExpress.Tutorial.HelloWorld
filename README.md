@@ -80,7 +80,7 @@ Now you have created a new solution and are ready to proceed with the next steps
   </PropertyGroup>
 
   <ItemGroup>
-      <PackageReference Include="WebExpress.WebCore" Version="0.0.9-alpha">
+      <PackageReference Include="WebExpress.WebCore" Version="2.0.0-alpha">
           <Private>false</Private>
           <ExcludeAssets>runtime</ExcludeAssets>
       </PackageReference>
@@ -89,7 +89,7 @@ Now you have created a new solution and are ready to proceed with the next steps
 - Add the necessary dependencies in the `HelloWorld.App.csproj` project file.
   ```xml
   <ItemGroup>
-      <PackageReference Include="WebExpress.WebCore" Version="0.0.9-alpha" />
+      <PackageReference Include="WebExpress.WebCore" Version="2.0.0-alpha" />
   </ItemGroup>
 
   <ItemGroup>
@@ -104,7 +104,7 @@ Now you have created a new solution and are ready to proceed with the next steps
   <?xml version="1.0" encoding="utf-8"?>
   <package>
       <id>WebExpress.Tutorial.HelloWorld</id>
-      <version>0.0.9-alpha</version>
+      <version>2.0.0-alpha</version>
       <title>HelloWorld</title>
       <authors>rene_schwarzer@hotmail.de</authors>
       <license>MIT</license>

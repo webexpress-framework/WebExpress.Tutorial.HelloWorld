@@ -10,7 +10,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="WebExpress.WebCore" Version="0.0.11-alpha" />
+	  <PackageReference Include="WebExpress.WebCore" Version="2.0.0-alpha" />
 	</ItemGroup>
 
 	<ItemGroup>
