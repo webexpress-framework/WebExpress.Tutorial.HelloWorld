@@ -253,10 +253,10 @@ Now you have created a new solution and are ready to proceed with the next steps
       <log modus="Off" debug="false" path="/var/log/" encoding="utf-8" filename="webexpress.log" timepattern="dd.MM.yyyy HH:mm:ss" />
       <uri>http://localhost/</uri>
       <endpoint uri="http://localhost/"/>
-      <limit>
-          <connectionlimit>300</connectionlimit>
-          <uploadlimit>3000000000</uploadlimit>
-      </limit>
+      <kestrel>
+          <maxconcurrentconnections>300</maxconcurrentconnections>
+          <maxrequestbodysize>3000000000</maxrequestbodysize>
+      </kestrel>
       <culture>en</culture>
       <packages>./packages</packages>
       <assets>./assets</assets>
