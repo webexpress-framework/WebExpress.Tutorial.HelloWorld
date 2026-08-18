@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HalloWorld.App/WebExpress.Tutorial.HalloWorld.App.csproj" />
+  <Project Path="HelloWorld/WebExpress.Tutorial.HelloWorld.csproj" />
+</Solution>
