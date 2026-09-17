@@ -18,7 +18,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="config\webexpress.config.xml">
+	  <None Update="settings\webexpress.settings.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>
