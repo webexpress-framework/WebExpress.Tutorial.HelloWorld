@@ -1,4 +1,5 @@
-﻿using WebExpress.WebCore.WebAttribute;
+﻿using WebExpress.Tutorial.HelloWorld;
+using WebExpress.WebCore.WebAttribute;
 using WebExpress.WebCore.WebPlugin;
 
 namespace HelloWorld
@@ -24,6 +25,14 @@ namespace HelloWorld
         /// Called when the plugin starts working. Run is called concurrently.
         /// </summary>
         public void Run()
+        {
+        }
+
+        /// <summary>
+        /// Disposes of the resources used by the plugin. This method is called when the plugin is 
+        /// no longer needed and should release any unmanaged resources.
+        /// </summary>
+        public void Dispose()
         {
         }
     }

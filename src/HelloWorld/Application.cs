@@ -1,7 +1,7 @@
 ﻿using WebExpress.WebCore.WebApplication;
 using WebExpress.WebCore.WebAttribute;
 
-namespace HelloWorld
+namespace WebExpress.Tutorial.HelloWorld
 {
     /// <summary>
     /// Represents the main application class.
@@ -24,6 +24,14 @@ namespace HelloWorld
         /// Called when the application starts working. The call is concurrent. 
         /// </summary>
         public void Run()
+        {
+        }
+
+        /// <summary>
+        /// Disposes of the resources used by the application. This method is called when 
+        /// the application is no longer needed and should release any unmanaged resources.
+        /// </summary>
+        public void Dispose()
         {
         }
     }
